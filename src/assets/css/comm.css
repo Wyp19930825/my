@@ -1,0 +1,230 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*左浮*/
+
+.fl {
+    float: left
+}
+
+
+/*右浮*/
+
+.fr {
+    float: right;
+}
+
+.clearfix::after {
+    /*设置添加的子元素的内容为空*/
+    content: "";
+    /*设置添加的子元素为块级元素*/
+    display: block;
+    /*设置添加的子元素的高度为0*/
+    height: 0;
+    /*设置添加的子元素看不见*/
+    overflow: hidden;
+    /*给添加的子元素设置clear:both;*/
+    clear: both;
+}
+
+.clearfix {
+    /*兼容IE6*/
+    *zoom: 1;
+}
+
+.color-f90 {
+    color: #f90 !important;
+}
+
+.div-in {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mima:before {
+    content: "\e69f";
+}
+
+.icon-icon_account:before {
+    content: "\e60a";
+}
+
+.icon-tongzhi:before {
+    content: "\e61e";
+}
+
+.icon-fangdajing:before {
+    content: "\e637";
+}

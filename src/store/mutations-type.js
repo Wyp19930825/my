@@ -1,0 +1,5 @@
+export const GOODSLIST = 'listgoods'
+export const ADMININFO = 'admininfo'
+export const ADDCART = 'addcarts'
+export const ADDCOUNT = 'addcount'
+export const SUBCOUNT = 'subcount'
